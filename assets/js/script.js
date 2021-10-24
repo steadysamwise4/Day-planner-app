@@ -29,7 +29,7 @@ console.log(timesArr);
 window.onload = displayDate(); loadSchedule();
 // makes date/time current up to the second
 function displayDate(){
-    var day = moment().format('[Today is ] dddd  MMMM Do, YYYY  [ Current  ] h:mm:ss a' );
+    var day = moment().format("[Today is ] dddd  MMMM Do, YYYY  [ Currently, it's ] h:mm:ss a" );
   document.getElementById('currentDay').innerHTML = day;
   setTimeout(displayDate, 1000); 
 }

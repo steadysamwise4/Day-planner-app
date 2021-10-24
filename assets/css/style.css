@@ -76,7 +76,9 @@ body {
   }
 
   #currentDay {
-      text-decoration: underline;
+      color:blueviolet;
+      font-size: 1.8rem;
+      font-weight: bold;
   }
 
   .check {
